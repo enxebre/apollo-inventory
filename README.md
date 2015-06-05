@@ -26,6 +26,12 @@ type inventoryProvider interface {
 apollo-inventory --pretty --path=/path_to/terraform.tfstate
 ```
 
+The default value for --path can be set as an environment variable via:
+
+```
+export TF_VAR_state_path=/path_to/terraform.tfstate
+```
+
 For Digital ocean you will see something like:
 
 ```json
